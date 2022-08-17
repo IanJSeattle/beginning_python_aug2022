@@ -1,0 +1,21 @@
+1. In the Python interpreter, use the input() function to answer the
+question, "What is your name?"  Assign the output of the function to a
+variable, and print out the resulting answer.  Next, get the answer to
+the question, "What's your favorite number?"  Using the print()
+function and the * operator, print out the number multiplied by 10 (ie,
+if I entered 7, I should see 70 as the result).
+
+
+2. In a new file (exercise_7_2.py), set up a while loop that repeats
+until the user enters the string "Python is cool", at which point the
+loop exits, and it prints out "Sure is!".  For any other response,
+print, "We're not leaving until you say Python is cool!" and repeat the
+question.  For this exercise, test the user's response as the condition
+for the while loop.
+
+
+3. Copy exercise_7_2.py to exercise_7_3.py, and update the file so
+that, instead of testing the user's response as the while loop's
+condition, the user's response is tested inside the loop, and the break
+keyword is used to end the loop.  Use True as the while condition in
+this version.

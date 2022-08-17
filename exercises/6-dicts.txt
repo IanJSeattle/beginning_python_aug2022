@@ -1,0 +1,54 @@
+1. In the interpreter, create a new dict with the keys 'name', and
+'favorite food'.  For values, enter your answers.  Use the print()
+function to print out the following strings, using the keys and values
+from the dict to fill in the 'name'/'favorite food' section, and the
+'XYZ' section:
+
+Your name is XYZ
+Your favorite food is XYZ
+
+For extra credit (what's that?) use a for loop to loop over the keys in
+the dictionary, and print those two sentences.
+
+
+2. Using your dict from exercise 1, add a new key of 'favorite color',
+set to your favorite color, using the same square bracket notation
+you used for lists.  Update the 'favorite food' entry to be a different
+food.  Print the whole dict using the print() function.
+
+
+3. In a new file (exercise_6_3.py), create a new dict that contains
+five city names as keys, and corresponding numbers as values, that are
+their populations (please make up numbers, no need to look this up).
+Write two different for loops that print out "The population of XYZ is
+ABC" for each city: the first loop, just loop directly over the dict
+(which will give you the keys), and look up the value inside the loop.
+In the second, use the .items() method to give you the key and value at
+the same time.
+
+
+4. In a new file (exercise_6_4.py), create three dicts of pizza
+instructions, each with a 'size' key, and a 'toppings' key.  Size value
+should be one of 'small', 'medium', or 'large'.  Toppings value should
+contain a list (either defined separately and assigned here, or defined
+in place) of pizza toppings that's at least three items long.  Assign
+these three dicts to a list.  Finally, make a for loop that prints out
+the following for each pizza described in the list:
+
+Make a {size} pizza with the following toppings: {toppings}
+
+For extra credit, modify the toppings list so instead of printing out
+"['onions', 'pepperoni']", it prints "onions, pepperoni".
+
+
+5. In a new file (exercise_6_5.py), use the range() function and the **
+exponent operator to create a dictionary comprehension of the squared
+values of the numbers 1-10.  Make a for loop which prints out the
+results like so:
+
+1: 1
+2: 4
+3: 9
+4: 16
+
+...and so on.

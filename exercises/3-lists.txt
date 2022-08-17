@@ -1,0 +1,31 @@
+1. In the Python interpreter, create a new list containing the strings
+'a', 'b', and 'c', using square brackets, and assign it to a variable.
+Run type() on the variable, and confirm that it returns <class 'list'>.
+Use the print() function to print out the whole list.
+
+
+2. Create a new list variable, this time containing three numbers
+between 2 and 10.  Using the str() function and the print() function,
+print out "X of Hearts" using your three list elements in place of the
+X.  Remember that list elements start at zero, not one.
+
+
+3. Create a new list variable, which contains two of your favorite
+foods, and one you don't care about.  Use the print() function to print
+out, "My favorite foods are {}", using .format() to replace the {} with
+your list.  Now change the food that's not your favorite to one that
+is, by reassigning that element in the list.  Run the print statement
+again to show that the list has been changed.
+
+
+4. Add a new favorite food to your list of favorites by using the
+.append() method.  Use the -1 index number to print out the food you
+just added to the list.  Try using other negative numbers to print out
+list elements.
+
+
+5. In the interpreter, run the sorted() function, with your list of
+favorite foods as the argument.  What happens?  Print your list, has it
+been changed?  Now run your list with .sort() at the end (like
+"my_foods.sort()").  What happens?  Print your list, is it the same as
+it was, or has it been changed?

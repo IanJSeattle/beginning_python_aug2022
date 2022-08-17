@@ -1,0 +1,19 @@
+Here are some useful URLs as we begin the Python journey:
+
+Download Python:
+https://www.python.org/downloads/
+
+Excellent tutorials:
+https://realpython.com/
+
+Visual Studio Code editor (recommended):
+https://code.visualstudio.com/
+
+Sublime Text editor for Mac (recommended):
+https://www.sublimetext.com/download
+
+Class info page:
+http://johni023.pages.gitlab.disney.com/beginning_python/
+
+This GitHub repo:
+https://github.com/IanJSeattle/beginning_python_jan2022

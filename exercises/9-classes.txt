@@ -1,0 +1,23 @@
+1. Create a new file (card.py), which contains a single class, Card.
+Give the Card class two attributes: value, and suit, in the __init__()
+function.  Create another file (game.py), which imports the card
+module.  Add a main() function, and add the "if __name__ == '__main__'"
+clause to the bottom, so that it will run the main() function.  In the
+main() function, create a new Card object, giving it a value and a
+suit.  Print out the card variable, then print out card.value, and
+card.suit.  Run the game.py file.  Did it do what you expected?  This
+is a complex exercise, we will definitely be discussing it.
+
+
+2. In the card.py file, add __str__() method to the Card class.  It
+should return a string like "2 of hearts".  Run the game.py file again
+as it was from exercise 1.  What changed?
+
+
+3. In the card.py file, add a new method called points() to the Card
+class, which will report the number of points this card is worth.  This
+method will examine self.value, and return an integer.  Use the same
+values as before: number cards are worth their number, face cards are
+worth 10, and ace is worth 11.  Refer back to the code you wrote for
+section 8.  In game.py, print the value of card.points() to see if it's
+working as expected.

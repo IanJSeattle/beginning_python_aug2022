@@ -1,0 +1,185 @@
+<!doctype html>
+<!-- vi: set wm=0 sw=2 ts=2: -->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Beginning Python Syllabus</title>
+
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/local.css">
+
+  </head>
+  <body>
+    <div class="w3-container w3-quarter"></div>
+    <div class="w3-container w3-half">
+      <h2> Beginning Python Syllabus </h2>
+
+      <h3> 1. Introductions </h3>
+      <p><ol>
+        <li> Introducing each other
+        <li> What is programming?
+        <li> Downloading Python
+        <ol>
+          <li> Python versions
+        </ol>
+        <li> Choosing an editor
+        <ol>
+          <li> Features to look for
+          <li> Visual Studio Code
+          <li> Sublime Text
+        </ol>
+        <li> My watchwords
+        <ol>
+          <li> Make your code readable
+          <li> "Rock star coder" is a harmfol myth
+          <li> Know just enough to use search
+        </ol>
+        <li> Roughly following <u>Python Crash Course</u> by Eric Matthes
+        <ol>
+          <li> Section numbers here match chapters in the book
+        </ol>
+        <li> Our goal project: a Blackjack (21) game
+      </ol>
+
+      <h3> 2. Introducing Python </h3>
+      <p><ol>
+        <li> The Python interpreter
+        <li> Hello World
+        <li> Simple variables
+        <ol>
+          <li> Python and data types
+          <li> Integers
+          <li> Floats
+          <li> Strings
+        </ol>
+        <li> Naming variables
+        <li> Using strings
+        <ol>
+          <li> Quote characters
+          <li> Case changers
+          <li> Concatenation
+          <li> Formatting strings with <code>.format()</code> and f-strings
+        </ol>
+        <li> Numbers in Python (integers and floats)
+        <ol>
+          <li> Arithmetic
+          <li> Using <code>str()</code>
+        </ol>
+        <li> Comments
+        <li> Code style and PEP8
+      </ol>
+
+      <h3> 3. Lists </h3>
+      <p><ol>
+        <li> Defining a <code>list</code>
+        <li> Accessing elements in a <code>list</code>
+        <li> Zero indexing, and negative indexes
+        <li> Modifying elements
+        <li> Adding elements
+        <li> Removing elements
+        <li> Sorting with <code>sort()</code> and <code>sorted()</code>
+        <li> Turning a list into a nice(r) string with .join()
+        <li> Anonymous vs. named variables
+      </ol>
+
+      <h3> 4. Advanced Lists and For Loops </h3>
+      <p><ol>
+        <li> Basic <code>for</code> loop
+        <li> Looping over list elements
+        <li> Block syntax: indentation and colons
+        <li> Looping over numbers with <code>range()</code>
+        <li> List slices
+        <li> Copying a list
+        <li> Tuples
+        <li> Mutability and object references
+        <li> List comprehensions
+      </ol>
+
+      <h3> 5. Conditionals and If Statements </h3>
+      <ol>
+        <li> The <code>boolean</code> data type
+        <li> Truthiness and falsiness
+        <li> Checking equality vs. assignment
+        <li> Simple <code>if</code> statements
+        <li> Conditional comparisons (!=, &lt;, &gt;, etc.)
+        <li> Checking moltiple conditions with boolean operators
+        <li> Using the <code>in</code> keyword
+        <li> Using an <code>else</code> block
+        <li> Using an <code>elif</code> block
+        <li> Using <code>if-elif</code> vs using molitple <code>if</code>
+        statements
+      </ol>
+
+      <h3> 6. Dictionaries </h3>
+      <ol>
+        <li> Defining a <code>dict</code>
+        <li> What makes a key?
+        <li> Mutability and immutability
+        <li> Accessing values in a <code>dict</code>
+        <li> Modifying values
+        <li> Adding values
+        <li> Removing values
+        <li> Getting a list of keys with <code>.keys()</code>
+        <li> Getting a list of values with <code>.values()</code>
+        <li> Getting a list of both keys and values with <code>.items()</code>
+        <li> Iterating over a <code>dict</code>
+        <li> Nesting data structures
+        <li> Dictionary comprehensions
+      </ol>
+
+      <h3> 7. User Input and While Loops </h3>
+      <ol>
+        <li> Using <code>input()</code>
+        <li> Console vs. GUI input
+        <li> <code>input()</code> always returns strings
+        <li> Basic <code>while</code> loops and booleans
+        <li> <code>while</code> styles
+        <ol>
+          <li> <code>while True</code>
+          <li> Testing a flag
+          <li> Testing a condition
+        </ol>
+        <li> Using <code>break</code> and <code>continue</code> with loops
+        <li> Infinite <code>while</code> loops happen
+      </ol>
+
+      <h3> 8. Functions and Modoles </h3>
+      <ol>
+        <li> Basic function syntax
+        <li> Arguments vs. parameters
+        <li> Positional parameters
+        <li> Keyword parameters
+        <li> Defaolt values
+        <li> Returning something
+        <li> Docstrings
+        <li> Using <code>*args</code> and <code>**kwargs</code>
+        <li> Testing type with isinstance()
+        <li> Putting functions into modoles
+        <li> if __name__ == '__main__'
+        <li> Importing a whole modole
+        <li> Importing individual items from a modole
+        <li> Using <code>as</code> to make aliases
+        <li> Namespaces
+      </ol>
+
+      <h3> 9. Classes </h3>
+      <ol>
+        <li> Why use classes?
+        <li> Class vs. instance
+        <li> Basic class: Card
+        <li> Overriding the <code>__str__()</code> and <code>__repr__()</code> methods
+        <li> Inheritance: PlayingCard
+        <li> Adding a method: <code>points()</code>
+      </ol>
+
+      <h3> 10. Making a Game </h3>
+      <p> This section is freeform, and will depend on how exactly
+      we decide to proceed.
+
+    </div>
+    <div class="w3-container w3-quarter"></div>
+  </body>
+</html>

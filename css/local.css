@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: #75C5F8;
+}
+a, i, ul, ol, blockquote, table, p {
+    color: white;
+}

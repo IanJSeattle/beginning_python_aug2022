@@ -1,0 +1,29 @@
+1. In a new file (exercise_8_1.py), create a new variable, which
+contains a playing card as a dict.  It can use positional values (ie,
+the first element is the number, and the second the suit), or it can
+have explicit "suit" and "number" keys with corresponding values.
+Make a new function which takes one argument, this card dict, and
+prints out the numerical point value for the card.  For this exercise,
+assume that card values are equal to their number if they're numeric,
+are worth 10 points if they're a face card, or 11 points if it's an
+ace.  Run the function on your card dict.  Try a few different card
+values to make sure it works with number cards, face cards, and aces.
+
+
+2. Copy exercise_8_1.py to exercise_8_2.py, and modify the function so
+that, instead of taking a dict as an argument, it expects the number
+and suit as individual arguments, with an extra keyword argument called
+'variable_ace', defaulted to False.  Inside the function, if the card
+being checked is an ace, and variable_ace is set to True, return (don't
+print) the tuple (1, 11) instead of a straight 11.  Print the results
+of the function on a few different card values to ensure it's working
+like you expect it to.
+
+
+3. In a new file (exercise_8_3.py), import the files from the first two
+exercises, using the as keyword to alias them to something easier to
+type.  Write a new function in this file with *args and **kwargs as
+parameters, which will act as a wrapper function.  Based on whether
+the first element of args is a dict or not, pass on all the arguments
+and keyword arguments to the appropriate function.  Use the
+isinstance() function to check the type of the first argument.

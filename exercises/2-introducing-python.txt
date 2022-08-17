@@ -1,0 +1,44 @@
+1. Start the Python interpreter, and type the following text:
+
+print('Hello World!')
+
+Close the interpreter by typing:
+
+quit()
+
+
+2. In the Python interpreter, create three variables that have string
+values assigned to them.  Use the print() statement to print out each
+of the three variables (this will take 6 total lines of code).
+
+
+3. Create two variables, one of which contains a string, and one of
+which contains an int.  Use the + operator to try print()ing both
+variables together.  What error occurs, and what do you think it means?
+
+
+4. Using the two variables you created for exercise 3, use the
+.format() method to print() them out, one next to the other.  The
+.format() method is used like this:
+
+'{} {}'.format(one, two)
+
+
+5. Repeat exercise 4, but using an f-string.  The equivalent code from
+exercise 4 would be:
+
+f'{one} {two}'
+
+
+6. In the interpreter, try running the following mathematical
+operations:
+
+5 + 2
+5 - 2
+6 / 2
+12.5 * 2.2
+
+Notice which of these result in an integer, and which result in a float
+(floats have a decimal point showing, integers don't).  What about the
+multiplication result, anything weird there?
+

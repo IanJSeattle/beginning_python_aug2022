@@ -1,0 +1,72 @@
+1. In the interpreter, run the bool() function on the following values:
+
+17
+'hello'
+0
+[]
+12.1
+'' (single-quote characters)
+
+Are the results what you expected?
+
+
+2. Create a new variable called myvar, and assign the value 2 to it.
+Paying close attention to the number of equals signs, run the following
+lines of code:
+
+myvar == 2
+print(myvar)
+
+myvar == 3
+print(myvar)
+
+myvar = 3
+print(myvar)
+
+
+3. In a new file (exercise_5_3.py), create a new variable called name
+that contains your first name.  Set up an if statement that checks the
+contents of the name variable, to see if it equals (==) your name,
+and if it does, prints out 'Hello, {name}!', using an f-string to
+interpret {name}.  Try setting the name variable to a different
+name, and running the code again.  Try using a single equals sign
+in the if condition, what happens?
+
+
+4. In the interpreter, run the following lines, and note what each one
+returns:
+
+5 > 4
+4 > 5
+10 != 8
+5 > 5
+5 >= 5
+'a' > 'b'
+'a' < 'b'
+
+
+5. In a new file (exercise_5_5.py), create a new variable called age,
+and assign a number to it, somewhere between 10 and 30.  First, write
+an if condition that checks whether age is equal to or greater than 21.
+If it is, have the program print "You're allowed to drink."  Run the
+file, and see if it does the right thing (either print something or
+not, depending on what number you gave to the age variable).  If it
+works, add an "else" condition, which prints out, "You're not allowed to
+drink" and run it again.  Does the program behave properly?
+
+Now, modify the program so that it works like this: if age is over 21,
+print the "allowed to drink" message. If the age is under 21, but over
+18, print, "You're allowed to vote."  If the age is under 18, have it
+print "You're a minor."  You will use one each of if, elif, and else
+clauses to do this.  Test it with several different ages, and see if it
+works like you expect it to.
+
+It may take several tries to get this to work right, and the order of
+operations is very important.
+
+
+6. As an alternative to exercise 5, in a new file (exercise_5_6.py),
+implement FizzBang.  The rules are: for numbers that are divisible by
+3, print Fizz; for numbers that are divisible by five, print Bang; for
+numbers that are divisible by both 3 and 5, print FizzBang; for all
+other numbers, print the number.  Do this for the numbers 1-30.

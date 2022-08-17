@@ -1,0 +1,54 @@
+1. For this exercise, instead of typing it up in the interpreter, open
+your text editor, and create a new file called exercise_4_1.py.  In
+that file, create a new variable containing a list of three or four
+pizza toppings; the exact number isn't important.  Using a for loop,
+print out the following sentence once for each item in the list: "I
+like having XYZ on my pizza", where XYZ is your pizza topping.
+
+Hint: A for loop looks like this:
+
+for item in items:
+    print(item)
+
+
+2. In a new file, use the range() function in a for loop to print out
+the result of multiplying 5 times the numbers 1 through 10.
+
+Hint: the range function takes either one, two or three arguments.  If
+it's given one argument, that number is the number of elements that
+will be returned.  If given two, the first number is the starting
+number (inclusive) and the second is the stop number (exclusive).  If
+given three arguments, the first two remain start and stop, and the
+third is the step size.
+
+
+3. In the Python interpreter, create a new list containing the months
+of the year (short versions of the names are fine, like Jan, Feb, Mar).
+Using slice notation, get the interpreter to return the list, ['Mar',
+'Apr', 'May'].  What start and stop numbers are required to do this?
+
+
+4. In the interpreter, create a new tuple with the strings 'a', 'b',
+and 'c' in it.  Demonstrate accessing the zeroth element.  Try to
+change the zeroth element to a 'z'.  What happens?  Try adding a new
+value to the tuple using the .append() method, like you've done for
+lists.  What happens?
+
+
+5. In the interpreter, create a new list variable called mylist, which
+contains the numbers 1, 2, and 3.  Create another variable called
+otherlist, which is set to mylist (ie, "otherlist = mylist").  Use the
+.append() method on otherlist to add the number 4 to the end of the
+list.  Print out the contents of otherlist.  Print out the contents of
+mylist.  What happened?  Use the id() function to see the identifiers
+for mylist and otherlist.  Now, create a new variable called thirdlist,
+but instead of setting it equal to mylist, set it equal to "mylist[:]",
+and do the same .append() test to thirdlist.  What's different?  Run
+id() on thirdlist and compare with the other two.
+
+
+6. In a new file (exercise_4_6.py), create a new list that contains
+five country names, spelled in all lower case.  Use a list comprehension
+to create a new list, with all of the country names capitalized,
+using the str.title() method.  Print out the list of capitalized
+country names.
