@@ -1,3 +1,9 @@
+0. In a new file (exercise_8_0.py), create a new variable, which
+contains a playing card as a dict.  It will have explicit "suit" and
+"number" keys with corresponding values.  Make a new function which
+takes one argument, this card dict, and prints out the numerical point
+value for the card.
+
 1. In a new file (exercise_8_1.py), create a new variable, which
 contains a playing card as a dict.  It can use positional values (ie,
 the first element is the number, and the second the suit), or it can

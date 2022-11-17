@@ -1,22 +1,22 @@
 # Variable name examples
 
 # Too short
-u = 'Ian Johnston'
+u = 'Laura Johnston'
 
 # Too verbose
-current_user_first_last = 'Ian Johnston'
+current_user_first_last = 'Laura Johnston'
 
 # CamelCase
-userName = 'Ian Johnston'
+userName = 'Laura Johnston'
 
 # Leading capital letter - this should only be used for classes
-Username = 'Ian Johnston'
+Username = 'Laura Johnston'
 
 # Good variable name
-user_name = 'Ian Johnston'
+user_name = 'Laura Johnston'
 
 # Bonus question: Why might I choose user_name instead of username here?
 
-string1 = "Ian's thing"
+Tstring1 = "Laura's thing"
 she_said = "That is the "real thing""
 complex_string = 'That\'s the "real thing"'

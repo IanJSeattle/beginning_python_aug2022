@@ -7,8 +7,8 @@ from the dict to fill in the 'name'/'favorite food' section, and the
 Your name is XYZ
 Your favorite food is XYZ
 
-For extra credit (what's that?) use a for loop to loop over the keys in
-the dictionary, and print those two sentences.
+For extra credit (what's that?), use a for loop to print out the key
+and value of each item using the pattern "Your {} is {}".
 
 
 2. Using your dict from exercise 1, add a new key of 'favorite color',
